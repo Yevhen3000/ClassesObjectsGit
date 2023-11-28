@@ -85,7 +85,7 @@ public class Car {
     
     public void drive(){
         String dir = getUserInput();
-        //System.out.println("The " + color + " " + make +  " " + model + " is driving " + dir);
+        //System.out.println("The " + color + " " + make +  " " + model + " is driving " + dir); // Step1
         System.out.printf("The %s %s %s is driving %s \n", color,make,  model, dir );
     }
 }
